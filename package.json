@@ -30,9 +30,7 @@
     "tailwindcss": "^4.1.14",
     "vite": "^7.1.7"
   },
-  "overrides": {
-    "vite": {
-      "rollup": "npm:@rollup/wasm-node"
-    }
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.52.5"
   }
 }
