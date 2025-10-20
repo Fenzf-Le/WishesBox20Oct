@@ -70,7 +70,7 @@ function OpenAnimation({ open, wish, cuteImages = [], onClose }) {
               className="rounded-xl p-8 bg-gradient-to-br from-pink-300 to-rose-400 shadow-2xl w-80 max-w-full flex flex-col relative overflow-hidden"
               style={{ fontFamily: 'Poppins, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial' }}
             >
-              <h3 className="text-lg font-semibold mb-2">Lời chúc 20/10</h3>
+              <h3 className="text-lg text-black font-semibold mb-2">Lời chúc 20/10</h3>
 
               <div className="text-sm text-gray-800 flex-grow">
                 <p>{wish}</p>
@@ -201,7 +201,7 @@ export default function BlindBox20Oct({ seed } = {}) {
   return (
     <div className="min-h-screen flex items-center justify-center p-6" style={{ background: "linear-gradient(180deg,#fff7fb,#fff1f4)" }}>
       <div className="max-w-md w-full text-center">
-        <h1 className="text-2xl font-semibold mb-2">🎁 20/10 — Mở hộp lời chúc</h1>
+        <h1 className="text-2xl text-black font-semibold mb-2">🎁 20/10 — Mở hộp lời chúc</h1>
         <p className="text-sm text-gray-600 mb-6">Nhấn hộp màu hồng để nhận lời chúc 20/10 bất ngờ.</p>
 
         {/* hovering box area: hide when openAnim is true */}
