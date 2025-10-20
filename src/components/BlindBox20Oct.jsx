@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import '../assets/m-box.png';
+import '/m-box.png';
 
 // BlindBox20Oct.jsx
 // Updated: box scales up, shakes, then disappears on reveal. Card uses
@@ -131,16 +131,16 @@ export default function BlindBox20Oct({ seed } = {}) {
 
   // placeholder cute images - put your actual images into src/assets and update names
   const allCute = [
-    "/src/assets/stickers/cute1.jpg",
-    "/src/assets/stickers/cute2.jpg",
-    "/src/assets/stickers/cute3.png",
-    "/src/assets/stickers/cute4.jpg",
-    "/src/assets/stickers/cute5.jpg",
-    "/src/assets/stickers/cute6.jpg",
-    "/src/assets/stickers/cute7.jpg",
-    "/src/assets/stickers/cute8.png",
-    "/src/assets/stickers/cute9.jpg",
-    "/src/assets/stickers/cute10.jpg",
+    "/stickers/cute1.jpg",
+    "/stickers/cute2.jpg",
+    "/stickers/cute3.png",
+    "/stickers/cute4.jpg",
+    "/stickers/cute5.jpg",
+    "/stickers/cute6.jpg",
+    "/stickers/cute7.jpg",
+    "/stickers/cute8.png",
+    "/stickers/cute9.jpg",
+    "/stickers/cute10.jpg",
   ];
 
   const [openAnim, setOpenAnim] = useState(false);
@@ -223,7 +223,7 @@ export default function BlindBox20Oct({ seed } = {}) {
                 transition={{ duration: 1.4, repeat: Infinity }}
                 className="flex items-center justify-center"
               >
-                <img src="/src/assets/m-box.png" alt="Hộp màu hồng"
+                <img src="/m-box.png" alt="Hộp màu hồng"
                    className="w-40 lg:w-50 max-w-full h-auto object-contain" />
               </motion.div>
 
